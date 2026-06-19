@@ -1,6 +1,7 @@
 name: Push Container
 
 on:
+  workflow_dispatch:
   workflow_run:
     workflows: ["Linting"]
     branches:
